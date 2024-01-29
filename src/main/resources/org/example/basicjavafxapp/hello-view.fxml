@@ -35,8 +35,11 @@
                   <Blend />
                </effect>
             </ButtonBar>
-            <Label fx:id="label" layoutX="223.0" layoutY="46.0"/>
+            <Label fx:id="label" layoutX="223.0" layoutY="46.0" />
          </children>
       </AnchorPane>
    </children>
+   <effect>
+      <InnerShadow />
+   </effect>
 </VBox>
